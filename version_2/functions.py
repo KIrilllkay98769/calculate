@@ -10,6 +10,9 @@ def multiply(a, b):
 def divide(a, b):
     return a / b
 
+def perimetr(a,b):
+    return 2 * (a + b)
+
 def calculate(a, operaion, b):
 
     if operaion == "+":
@@ -24,5 +27,6 @@ def calculate(a, operaion, b):
     elif operaion == "/":
         return divide(a, b)
 
-calc = calculate(4, "-", 3)
-print(calc)
+    elif operaion == "p":
+        return perimetr(a, b)
+
