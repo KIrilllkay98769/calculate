@@ -21,10 +21,6 @@ while True:
         
         b = float(input("Введите второе число: "))
 
-        if a < b:
-            print("Первое число не может быть меньше второго!")
-            continue
-
         result = calculate(a , operation, b)
         print(f"Результат: {result} ")
 
