@@ -30,7 +30,7 @@ def main():
         b = get_number("Введите второе число: ")
 
         try:
-
+            
             result = calculate(a , operation, b)
             print(f"Результат: {result}")
             break

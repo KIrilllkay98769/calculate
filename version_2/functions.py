@@ -13,6 +13,9 @@ def divide(a, b):
 def perimetr(a,b):
     return 2 * (a + b)
 
+def percent_sign(a,b):
+    return a % b
+
 def calculate(a, operaion, b):
 
     if operaion == "+":
@@ -29,4 +32,7 @@ def calculate(a, operaion, b):
 
     elif operaion == "p":
         return perimetr(a, b)
+
+    elif operaion == "%":
+        return percent_sign(a, b)
 
